@@ -1,0 +1,68 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"); */
+
+#tableSelect {
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.dropdown {
+    /* margin: auto; */
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.li-btn {
+    padding: 1rem;
+}
+
+.li-btn:hover {
+    background-color: antiquewhite;
+}
+
+#table-container {
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+th,
+td {
+    border: solid 2px blue;
+    padding: 0.5rem 1rem;
+}
+
+td>input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+.user-btn {
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    background-color: lightcoral;
+}
+
+.ubdy {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.ubdy>input {
+    padding: 10px;
+    margin: 10px;
+    width: 80%;
+}
